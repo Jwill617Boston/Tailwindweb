@@ -4,7 +4,6 @@ import { FaFire, FaPoo } from "react-icons/fa";
 export default function SideBar() {
    return (
       <div className="sidebar">
-         <FaFire size="28" />
          <SideBarIcon icon={<FaFire size="28" />} />
          <SideBarIcon icon={<BsPlus size="32" />} />
          <SideBarIcon icon={<BsFillLightningFill size="20" />} />
