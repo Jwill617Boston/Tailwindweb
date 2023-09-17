@@ -4,8 +4,16 @@ import Link from "next/link";
 
 export default function Home() {
    return (
-      <div className="container mx-auto flex justify-center items-center p-20">
-         <h1>Home Page</h1>
-      </div>
+      <>
+         <section className="container mx-auto flex justify-center bg-red-200 p-20 min-h-screen">
+            <h1 className="text-9xl"> Hero</h1>
+         </section>
+         <section className="container mx-auto flex justify-center bg-green-600 p-20 min-h-screen">
+            <h1 className="text-9xl">Freature</h1>
+         </section>
+         <section className="container mx-auto flex justify-center bg-yellow-600 p-20 min-h-screen">
+            <h1 className="text-9xl">Services</h1>
+         </section>
+      </>
    );
 }
