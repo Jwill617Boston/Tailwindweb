@@ -1,11 +1,8 @@
-import Image from 'next/image'
-
-
-export default function Home() {
+export default function About() {
    return (
       <>
          <div className="container flex mx-auto h-screen bg-slate-300">
-            <h1>Home Page</h1>
+            <h1>About</h1>
          </div>
       </>
    );
