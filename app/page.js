@@ -12,9 +12,7 @@ export default function Home() {
       <>
          <section className="container mx-auto  bg-red-200 p-20 min-h-screen">
             <div class=" flex text-9xl font-extrabold justify-center mb-20">
-               <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
-                  Hero
-               </span>
+               <span class="hero-text-styled">Hero</span>
             </div>
 
             <div class="grid grid-cols-4 gap-4">
